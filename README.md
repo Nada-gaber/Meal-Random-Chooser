@@ -1,6 +1,6 @@
 # ✨Random Meal Chooser [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) <a href="https://github.com/Solido/awesome-flutter"><img alt="Awesome Flutter" src="https://img.shields.io/badge/Awesome-Flutter-blue.svg?longCache=true&style=flat-square" /></a>
 
-simple UI for a Furniture app
+simple Meal Chooser app 
 Star⭐ the repo if you like what you see😉.
 
 
