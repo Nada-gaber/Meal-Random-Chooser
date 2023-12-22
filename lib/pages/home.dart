@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:mealchooser/breakfast/showbreak.dart';
 import 'package:mealchooser/pages/favorite.dart';
+import 'package:mealchooser/search/search.dart';
 import 'package:mealchooser/widgets/textstyle.dart';
 
 class Breakfast extends StatefulWidget {
@@ -32,6 +33,21 @@ class _BreakfastState extends State<Breakfast> {
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: [
+              Ink(
+                decoration: ShapeDecoration(
+                  color: Colors.deepOrange.shade900,
+                  shape: CircleBorder(),
+                ),
+                child: IconButton(
+                  onPressed: () {
+                    Navigator.push(context,
+                        MaterialPageRoute(builder: (context) => Search()));
+                  },
+                  icon: Icon(Icons.search),
+                  color: Colors.white,
+                  iconSize: 35,
+                ),
+              ),
               InkWell(
                 onTap: () {
                   Navigator.push(context,
